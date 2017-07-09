@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Il mio primo layout in bootstrap</title>
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+<!--librerie per pulsanti social-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style2.css">
+
+
+
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.js"></script>
+<![endif]-->
+</head>
+
+<body>
+  <!--HEADER-->
+<div id="headerWrap">
+  <header class="container voffset3">
+    <nav id="mainNav" class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainMenu"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+       	<!--name company-->
+        <a href="index.html" class="navbar-brand">NUTRILINE</a> </div>
+      <div class="collapse navbar-collapse" id="mainMenu">
+        <!--logo-->
+        <ul class="nav navbar-nav">
+          <li><img class="img-responsive logo" src="img/logo/logo2.png "/></li>
+          <!-- Navigation bar -->
+          <li><a href="pagechisiamo.html">CHI SIAMO</a></li>
+          <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="#">I NOSTRI PRODOTTI<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li class="divider"></li>
+              <li class="divider-text">INTEGRATORI</li>
+              <li class="divider"></li>
+              <li><a  href="pageprod1.html">NutriKal</a></li>
+              <li><a  href="pageprod2.html">NutriKalPlus</a></li>
+              <li class="divider"></li>
+              <li class="divider-text">PERDI PESO</li>
+              <li class="divider"></li>
+              <li><a href="pageprod3.html">KiloKalNutri</a></li>
+              <li><a href="#">XlSNutriKal</a></li>
+              <li class="divider"></li>
+              <li class="divider-text">PROTEICI</li>
+              <li class="divider"></li>
+              <li><a href="pageprod5.html">NutriProDay</a></li>
+              <li><a href="pageprod6.html">NutriProAll</a></li>
+            </ul>
+          </li>
+          <li><a href="pagedovesiamo.html">DOVE SIAMO</a></li>
+          <li><a href="pagecontatti.html">CONTATTI</a></li>
+        </ul>
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Cerca nel sito...">
+          </div>
+        </form>
+      </div>
+    </nav>
+  </header>
+</div>
+<!--END HEADER-->
+
+<div class="container">
+  <div id="prodotto4">
+    <h1>XlSNutriKal</h1>
+    <h4> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce justo metus, accumsan viverra iaculis in, pulvinar vel nulla. Aliquam semper erat maximus scelerisque accumsan.
+</h4>
+  </div>
+  <div id="main_area">
+       <!-- Slider -->
+       <div class="row">
+           <div class="col-sm-6" id="slider-thumbs">
+               <!-- Bottom switcher of slider -->
+               <ul class="hide-bullets">
+                   <li class="col-sm-3">
+                       <a class="thumbnail" id="carousel-selector-0">
+                           <img src="img/imagepageprodquattro/prod4.png">
+                       </a>
+                   </li>
+
+                   <li class="col-sm-3">
+                       <a class="thumbnail" id="carousel-selector-1"><img src="img/imagepageprodquattro/prod4.png"></a>
+                   </li>
+
+                   <li class="col-sm-3">
+                       <a class="thumbnail" id="carousel-selector-2"><img src="img/imagepageprodquattro/prod4.png"></a>
+                   </li>
+
+                   <li class="col-sm-3">
+                       <a class="thumbnail" id="carousel-selector-3"><img src="img/imagepageprodquattro/prod4.png"></a>
+                   </li>
+
+                   <li class="col-sm-3">
+                       <a class="thumbnail" id="carousel-selector-4"><img src="img/imagepageprodquattro/prod4.png"></a>
+                   </li>
+
+                   <li class="col-sm-3">
+                       <a class="thumbnail" id="carousel-selector-5"><img src="img/imagepageprodquattro/prod4.png"></a>
+                   </li>
+                   <li class="col-sm-3">
+                       <a class="thumbnail" id="carousel-selector-6"><img src="img/imagepageprodquattro/prod4.png"></a>
+                   </li>
+
+                   <li class="col-sm-3">
+                       <a class="thumbnail" id="carousel-selector-7"><img src="img/imagepageprodquattro/prod4.png"></a>
+                   </li>
+
+               </ul>
+           </div>
+           <div class="col-sm-6">
+               <div class="col-xs-12" id="slider">
+                   <!-- Top part of the slider -->
+                   <div class="row">
+                       <div class="col-sm-12" id="carousel-bounding-box">
+                           <div class="carousel slide" id="myCarousel">
+                               <!-- Carousel items -->
+                               <div class="carousel-inner">
+                                   <div class="active item" data-slide-number="0">
+                                       <img src="img/imagepageprodquattro/prod4grande.png"></div>
+
+                                   <div class="item" data-slide-number="1">
+                                       <img src="img/imagepageprodquattro/prod4grande.png"></div>
+
+                                   <div class="item" data-slide-number="2">
+                                       <img src="img/imagepageprodquattro/prod4grande.png"></div>
+
+                                   <div class="item" data-slide-number="3">
+                                       <img src="img/imagepageprodquattro/prod4grande.png"></div>
+
+                                   <div class="item" data-slide-number="4">
+                                       <img src="img/imagepageprodquattro/prod4grande.png"></div>
+
+                                   <div class="item" data-slide-number="5">
+                                       <img src="img/imagepageprodquattro/prod4grande.png"></div>
+
+                                   <div class="item" data-slide-number="6">
+                                       <img src="img/imagepageprodquattro/prod4grande.png"></div>
+
+                                   <div class="item" data-slide-number="7">
+                                       <img src="img/imagepageprodquattro/prod4grande.png"></div>
+
+                                   <div class="item" data-slide-number="8">
+                                       <img src="img/imagepageprodquattro/prod4grande.png"></div>
+                               </div>
+                               <!-- Carousel nav -->
+                               <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                   <span class="glyphicon glyphicon-chevron-left"></span>
+                               </a>
+                               <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                   <span class="glyphicon glyphicon-chevron-right"></span>
+                               </a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <!--/Slider-->
+       </div>
+
+   </div>
+</div>
+
+<!--FOOTER-->
+<div id="footerWrap" class="voffset5">
+  <footer class="container">
+    <div id="copy" class="xs-col-12 col-md-6">
+      &copy; Copyright 2017 ~ Sopra Steria
+    </div>
+  <!--social-->
+    <div id="social" class="xs-col-12 col-md-6">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+     <a href="#" class="fa fa-linkedin"></a>
+   </div>
+
+  </footer>
+</div>
+<!--END FOOTER-->
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Il mio primo layout in bootstrap</title>
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+<!--librerie per pulsanti social-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.js"></script>
+<![endif]-->
+</head>
+
+<body>
+  <!--HEADER-->
+<div id="headerWrap">
+  <header class="container voffset3">
+    <nav id="mainNav" class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainMenu"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+       	<!--name company-->
+        <a href="index.html" class="navbar-brand">NUTRILINE</a> </div>
+      <div class="collapse navbar-collapse" id="mainMenu">
+        <!--logo-->
+        <ul class="nav navbar-nav">
+          <li><img class="img-responsive logo" src="img/logo/logo2.png "/></li>
+          <!-- Navigation bar -->
+          <li><a href="#">CHI SIAMO</a></li>
+          <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="#">I NOSTRI PRODOTTI<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li class="divider"></li>
+              <li class="divider-text">INTEGRATORI</li>
+              <li class="divider"></li>
+              <li><a  href="pageprod1.html">NutriKal</a></li>
+              <li><a  href="pageprod2.html">NutriKalPlus</a></li>
+              <li class="divider"></li>
+              <li class="divider-text">PERDI PESO</li>
+              <li class="divider"></li>
+              <li><a href="pageprod3.html">KiloKalNutri</a></li>
+              <li><a href="pageprod4.html">XlSNutriKal</a></li>
+              <li class="divider"></li>
+              <li class="divider-text">PROTEICI</li>
+              <li class="divider"></li>
+              <li><a href="pageprod5.html">NutriProDay</a></li>
+              <li><a href="pageprod6.html">NutriProAll</a></li>
+            </ul>
+          </li>
+          <li><a href="pagedovesiamo.html">DOVE SIAMO</a></li>
+          <li><a href="pagecontatti.html">CONTATTI</a></li>
+        </ul>
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Cerca nel sito...">
+          </div>
+        </form>
+      </div>
+    </nav>
+  </header>
+</div>
+<!--END HEADER-->
+
+<div class="container">
+  <div id="Contatti">
+    <h1>Sede legale ed operativa</h1>
+    <h4> Via Vicinale S. Maria del Pianto <br>Complesso polifunzionale InailTorre 1 <br>
+                 Tel. +39 081 19804850-52 - Fax +39 081 19804853<br>
+                             in...@nutriline.it
+</h4>
+  </div>
+    <div id="content">
+   <!-- WIDGETS -->
+<div class="row voffset4" id="widgets">
+
+      <div class="col-md-4 col-xs-6">
+        <img class="img-thumbnail img-responsive" src="img/imgpagecontatti/imgct1.png"/>
+        <h3 class="text-center">SEGRETERIA</h3>
+        <p class="voffset2">Tel. 081/914715<br> e-mail:segreteria@nutriline.it</p>
+        <a class="btn btn-default pull-right voffset2">Invia e-mail</a> </div>
+      <div class="col-md-4 col-xs-6">
+
+        <img class="img-thumbnail img-responsive" src="img/imgpagecontatti/imgct2.png"/>
+        <h3 class="text-center">AMMINISTRAZIONE</h3>
+        <p class="voffset2">Tel. 081/914713<br>  e-mail:amministrazione@nutriline.it</p>
+        <a class="btn btn-default pull-right voffset2">Invia e-mail</a> </div>
+
+      <div class="col-md-4 hidden-sm hidden-xs">
+        <img class="img-thumbnail img-responsive" src="img/imgpagecontatti/imgct3.png"/>
+        <h3 class="text-center">CALL CENTER PRODOTTI</h3>
+        <p class="voffset2">Tel. 081/914714<br>  e-mail: assistenza@nutriline.it</p>
+        <a class="btn btn-default pull-right voffset2">Invia e-mail</a> </div>
+  </div>
+    <!-- END WIDGETS -->
+</div>
+</div>
+
+<!--FOOTER-->
+<div id="footerWrap" class="voffset5">
+  <footer class="container">
+    <div id="copy" class="xs-col-12 col-md-6">
+      &copy; Copyright 2017 ~ Sopra Steria
+    </div>
+  <!--social-->
+    <div id="social" class="xs-col-12 col-md-6">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+     <a href="#" class="fa fa-linkedin"></a>
+   </div>
+
+  </footer>
+</div>
+<!--END FOOTER-->
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
